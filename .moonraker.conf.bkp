@@ -23,6 +23,9 @@ cors_domains =
 
 [octoprint_compat]
 
+[file_manager]
+enable_object_processing = True
+
 [history]
 
 [update_manager]
@@ -73,4 +76,12 @@ requirements = requirements.txt
 system_dependencies = system-dependencies.json
 primary_branch = main
 managed_services = klipper
+
+[update_manager Klipper-Adaptive-Meshing-Purging]
+type = git_repo
+channel = dev
+path = ~/Klipper-Adaptive-Meshing-Purging
+origin = https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging.git
+managed_services = klipper
+primary_branch = main
 
