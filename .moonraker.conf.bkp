@@ -95,6 +95,6 @@ primary_branch = main
 install_script = install.sh
 
 [timelapse]
-output_path = ~/printer_data/timelapse/
-frame_path = /tmp/timelapse/printer
+output_path = ~/timelapse/
+frame_path = /tmp/timelapse/
 
