@@ -98,3 +98,9 @@ install_script = install.sh
 output_path = ~/timelapse/
 frame_path = /tmp/timelapse/
 
+[update_manager led_effect]
+type = git_repo
+path = ~/klipper-led_effect
+origin = https://github.com/julianschill/klipper-led_effect.git
+is_system_service = False
+
